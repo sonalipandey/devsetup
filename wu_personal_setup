@@ -1,2 +1,7 @@
 #!/bin/sh
 #Use this to add packages to your machine when running wu_setup_dev
+
+# Install C++11
+cd /etc/yum.repos.d
+wget http://people.centos.org/tru/devtools-1.1/devtools-1.1.repo 
+yum --enablerepo=testing-1.1-devtools-6 --skip-broken install devtoolset-1.1-gcc devtoolset-1.1-gcc-c++
