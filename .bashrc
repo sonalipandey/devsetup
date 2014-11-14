@@ -34,6 +34,8 @@ PATH=$PATH:$HOME/bin
 
 export PATH
 
+export PATH=/opt/centos/devtoolset-1.1/root/usr/bin/:$PATH
+
 
 #Make git log awesome
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
